@@ -3,7 +3,6 @@
 
 ### Frontend Setup:
 ___________________________
-## Project setup
 ```
 npm install
 ```
@@ -17,16 +16,28 @@ ___________________________
 ### Backend Setup
 ___________________________
 
-### Windows Python (venv)
-```
-cd backend
-$ source env/Scripts/activate
+### Creation and Activating Python (venv)
 
-#To deactivate
+**On Windows**
+```
+$ cd backend
+$ py -m venv
+$ source env/Scripts/activate
+```
+
+**On Unix or MacOS:**
+```
+$ cd backend
+$ python3 -m venv
+$ source env/bin/activate
+```
+
+**To deactivate**
+```
 $ deactivate
 ```
 
-### Installing requirements
+### Backend packages installation
 Depending on what PATH variable you assigned for Python.
 ```
 (venv) $ python -m pip install -r requirements.txt
@@ -42,6 +53,11 @@ or
 or
 `python3 manage.py runserver`
 
+
+________________________
+Notes:
+
+Make sure both localhost:8000 and localhost:8080 are both running on your machine.
 
 ### SuperUser
 Alan
