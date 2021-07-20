@@ -66,4 +66,4 @@ Alan
 
 ### Reference:
 Front and Backend built referring to: 
-*https://realpython.com/python-django-blog/demo-a-django-blog-admin-a-graphql-api-and-a-vue-front-end*
+*https://realpython.com/python-django-blog/*
