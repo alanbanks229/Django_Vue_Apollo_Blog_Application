@@ -1,4 +1,4 @@
-### Django_Vue_Apollo_Blog_Application:
+# Django_Vue_Apollo_Blog_Application:
 
 ___________________________
 ### Frontend Setup:
