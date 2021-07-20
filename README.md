@@ -1,6 +1,6 @@
 # Django_Vue_Apollo_Blog_Application:
 
-___________________________
+
 ### Frontend Setup:
 ___________________________
 ## Project setup
